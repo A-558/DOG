@@ -1,0 +1,43 @@
+.main{
+    background: linear-gradient(45deg, red, yellow);
+    max-width: 500px;
+    padding: 50px;
+}
+.main button{
+    display: inline;
+    border: none;
+    margin-top: 25px;
+    cursor: pointer;
+}
+body {
+    margin: 0;padding: 0;
+}
+.main button:hover{
+    background-color: red;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 1);
+}
+img{
+    
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+header{
+    background-color: orange;
+    font-size: 50px;
+}
+footer {
+    background-color: orange;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.style {
+    background-color:orange;
+}
+.img  p{
+    margin-left: 100px;
+}
+.img{
+    display: inline-block;
+}
