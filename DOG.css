@@ -1,7 +1,12 @@
 .main{
-    background: linear-gradient(45deg, red, yellow);
+    background: linear-gradient(45deg, rgb(62, 42, 151),rgb(0, 225, 255));
     max-width: 500px;
     padding: 50px;
+    margin-left: 30%;
+    margin-top: 10%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 1);
+    border-radius: 15%;
+    color: #fff;
 }
 .main button{
     display: inline;
@@ -15,6 +20,7 @@ body {
 .main button:hover{
     background-color: red;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 1);
+    border-radius: 50%;
 }
 img{
     
@@ -22,6 +28,7 @@ img{
     width: 250px;
     border: 2px solid black;
     border-radius: 50%;
+    box-shadow: 0 10px 20px  rgba(0, 0, 0, 1);
 }
 header{
     background-color: orange;
