@@ -9,19 +9,27 @@
     </head>
     <body>
         <div class="main">
+            <form onsubmit="return login()">
             <h2>REGISTATION FROMS</h2><br>
-            <i class="fa fa-user" aria-hidden="true fa-lg"></i><label> FIRST NAME</label><br>
-            <input type="text" placeholder="SURNAME"><br>
-            <i class="fa fa-user" aria-hidden="true"></i><label> SECOND NAME</label><br>
-            <input type="text" placeholder="NAME"><br>
+            <i class="fa fa-user" aria-hidden="true fa-lg"></i><label> FIRSTNAME</label><br>
+            <input id= "name" name="name" type="text" placeholder="SURNAME" required><br>
+            <i class="fa fa-user" aria-hidden="true"></i><label> SECONDNAME</label><br>
+            <input id = "lname" name ="lname"type="text" placeholder="NAME" required><br>
             <i class="fa fa-reddit-alien fa-lg" aria-hidden="true"></i>
             <label>DOG</label><br>
-            <input type="text" placeholder="which type bread"><br>
+            <input id="typeofdog" name="typeofdog" type="text" placeholder="which type bread" required><br>
             <i class="fa fa-envelope-o" aria-hidden="true"></i> <label> EMAIL</label><br>
-            <input type="text" placeholder="ABC1232@gmail.com"><br>
-            <i class="fa fa-eye" aria-hidden="true"></i><label> PASSWARD</label><br>
-            <input type="password"><br>
-            <a href="./ARUN.html"><button>SUBMIT</button></a>
+            <input id="email" name="email" type="text" placeholder="ABC1232@gmail.com" required><br>
+            <i class="fa fa-eye" aria-hidden="true"></i><label> PASSWORD</label><br>
+            <input id="pswd" name="pswd" type="password"><br>
+            <div>
+                <p id='result'></p>
+            </div>
+            <div>
+                <script src="./dogtrain.js"></script>
+            </div>
+            <button>SUBMIT</button>
+        </form>
         </div>
     </body>
 </html>
